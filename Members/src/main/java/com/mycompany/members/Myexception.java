@@ -1,0 +1,20 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package com.mycompany.members;
+
+/**
+ *
+ * @author shri shivay
+ */
+public class Myexception extends Exception{
+    public Myexception(){
+            super();
+    }
+     public Myexception(String message){
+            super(message);
+    }
+}
+
+   
