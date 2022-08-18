@@ -13,10 +13,10 @@ import java.util.Scanner;
  */
 public class Project1 implements Calculate {
     int a;
+    int r;
     int b;
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
         Project1 project=new Project1();
                project.getValues();
                project.calculateArea();
@@ -26,7 +26,8 @@ public class Project1 implements Calculate {
     @Override
     public void calculateArea() {
         System.out.println("Area of reactangle=  "+(a*b));
-        
+        System.out.println("Area of square= " +(a*a));
+        System.out.println("Area of Circle=  " +(pie*r*r));
     }
 
     @Override
@@ -36,7 +37,8 @@ public class Project1 implements Calculate {
            a=sc.nextInt();
    System.out.print("Enter b= ");
            b=sc.nextInt();
-
+   System.out.print("Enter r= ");
+    r=sc.nextInt();
     }
     
 }

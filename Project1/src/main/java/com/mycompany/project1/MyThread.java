@@ -8,10 +8,6 @@ package com.mycompany.project1;
  *
  * @author shri shivay
  */
-public interface Calculate {
-    final float pie=3.14f;
-    void calculateArea();
-    void getValues();
-    
+public interface MyThread {
     
 }
